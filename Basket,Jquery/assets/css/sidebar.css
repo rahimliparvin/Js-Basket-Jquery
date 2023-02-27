@@ -1,0 +1,44 @@
+.box {
+    background-color: gray;
+    width: 300px;
+    height: 100vh;
+    position: relative;
+    border-radius: 5px;
+}
+
+.box .icons {
+    background-color: #0a58ca;
+    width: 300px;
+    height: 60px;
+    position: relative;
+}
+
+.box .icons i {
+    float: right;
+    font-size: 25px;
+    color: black;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.box .items {
+    position: absolute;
+    z-index: 1;
+    width: 260px;
+}
+
+.box .items ul {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+
+.box .items ul li {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.hide-box{
+    transform: translate(-260px);
+} 
